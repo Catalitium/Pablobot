@@ -9,38 +9,38 @@
     gtag('js', new Date());
     gtag('config', 'G-JC8GH7N249');
   </script>
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Compare top LLMs: Grok, Llama 3, DeepSeek, Claude, Gemini, Mistral. Real-time specs, context windows, parameters. Fast, clean, professional.">
-  <meta name="keywords" content="LLM comparison, AI models, Grok, Llama 3, DeepSeek, Claude, Gemini, language models, AI comparison">
-  <title>LLM Comparison Platform | Compare Grok, Llama 3, DeepSeek & More</title>
+  <meta name="description" content="Pablobot — AI models, Bots (free), and Cryptorka whale tracker.">
+  <meta name="keywords" content="Pablobot, AI, Bots, Crypto, Cryptorka">
+  <title>PABLOBOT — AI Models, Bots (Free), Cryptorka</title>
 
   <link rel="canonical" href="https://pablobot.com/">
-  
+
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://pablobot.com/">
-  <meta property="og:title" content="LLM Comparison Platform | Compare Top AI Models">
-  <meta property="og:description" content="Professional comparison of Grok, Llama 3, DeepSeek, Claude, Gemini. Real-time specs and official links.">
-  <meta property="og:site_name" content="LLM Comparison Platform">
-  
+  <meta property="og:title" content="PABLOBOT — AI Models, Bots (Free), Cryptorka">
+  <meta property="og:description" content="Compare top AI models, try free bots, and follow the Cryptorka whale-tracker project.">
+  <meta property="og:site_name" content="PABLOBOT">
+
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="LLM Comparison Platform">
-  <meta name="twitter:description" content="Compare top LLMs with real-time specs and official links.">
+  <meta name="twitter:title" content="PABLOBOT">
+  <meta name="twitter:description" content="AI models, free bots, and the Cryptorka whale tracker.">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"WebSite",
-    "name":"LLM Comparison Platform",
+    "name":"PABLOBOT",
     "url":"https://pablobot.com/",
-    "description":"Professional comparison platform for Large Language Models",
+    "description":"AI models table, free bots, and the Cryptorka whale tracker.",
     "potentialAction":{
       "@type":"SearchAction",
-      "target":"https://pablobot.com/#llm-table?q={search_term_string}",
+      "target":"https://pablobot.com/#a-models?q={search_term_string}",
       "query-input":"required name=search_term_string"
     }
   }
@@ -50,65 +50,376 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 </head>
 <body>
+  <a class="skip-link" href="#a-models">Skip to content</a>
+
   <header>
     <div class="wrap brand">
-      <div class="brand__emoji" aria-hidden="true">🤖</div>
-      <div>
-        <h1>LLM Comparison Platform</h1>
-        <p class="muted" style="margin:0;font-size:.9rem">Enterprise-grade model intelligence</p>
+      <a class="brand__emoji" href="#a-models" aria-label="Jump to A. AI Models" data-track="brand-emoji">🤖</a>
+
+      <div class="brand__block">
+        <!-- pABlobot.Com with inline A/B/C links -->
+        <h1 class="brand__name" aria-label="p A B lobot dot Com">
+          p
+          <a href="#a-models" class="brand__letter" data-track="brand-A" aria-label="Go to A. AI Models">A</a>
+          <a href="#b-bots" class="brand__letter" data-track="brand-B" aria-label="Go to B. Bots (Free)">B</a>lobot.
+          <a href="#c-crypto" class="brand__letter" data-track="brand-C" aria-label="Go to C. Cryptorka">C</a>om
+        </h1>
+        <p class="muted brand__tag">AI models • Bots-for-free • Cryptorka</p>
       </div>
     </div>
+
     <div class="wrap">
       <nav class="primary" aria-label="Primary">
         <ul>
-          <li><a href="#llm-table" data-track="nav-llm-table">LLM Table</a></li>
-          <li><a href="#papers" data-track="nav-papers">Papers</a></li>
-          <li><a href="#timeline" data-track="nav-timeline">Timeline</a></li>
+          <li><a href="#a-models" data-track="nav-a-models">AI Models</a></li>
+          <li><a href="#b-bots" data-track="nav-b-bots">Bots (Free)</a></li>
+          <li><a href="#c-crypto" data-track="nav-c-crypto">Cryptorka</a></li>
           <li><button id="newsletter-btn" class="nav-btn" aria-label="Subscribe to newsletter">📬 Newsletter</button></li>
         </ul>
       </nav>
     </div>
   </header>
+
   <main class="wrap">
-    <!-- HERO + LLM TABLE (Main Offering) -->
-    <section id="llm-table" class="section" aria-labelledby="llm-heading">
-      <h2 id="llm-heading">Top LLMs — Ranked by Context Window & Parameters</h2>
-      <p>This live table is the heart of the site: scan specs, compare models, and jump to official sources.</p>
+    <!-- A. AI MODELS (LLM TABLE) -->
+    <section id="a-models" class="section" aria-labelledby="a-heading">
+      <h2 id="a-heading">A. AI Models — Top LLMs</h2>
+      <p>Scan specs, compare models, and jump to official sources. Ranked by context window, then parameters.</p>
 
       <div class="searchbar" role="search">
-        <input id="llmSearch" type="search" placeholder="Search models..." aria-label="Filter LLM models" autocomplete="off">
-        <span class="kb">Ranked by context window, then parameters</span>
+        <input id="llmSearch" type="search" placeholder="Search models..." aria-label="Filter LLM models" autocomplete="off" inputmode="search">
+        <span class="kb">Ranked by context window → parameters</span>
       </div>
 
-  <div class="table-wrap" role="region" aria-label="LLM comparison table">
-    <table aria-describedby="llm-heading">
-      <caption>Compare LLM specifications: parameters, context windows, and official sources</caption>
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Model</th>
-          <th scope="col" class="hide-sm">Provider</th>
-          <th scope="col">Params (B)</th>
-          <th scope="col">Context (K)</th>
-          <th scope="col">Link</th>
-        </tr>
-      </thead>
-      <tbody id="llm-tbody"></tbody>
-    </table>
-  </div>
-</section>
-
-    <section id="intro" class="section">
-      <h2>Professional LLM Intelligence</h2>
-      <p>Compare the latest Large Language Models with verified specifications from official sources. Real-time data on context windows, parameters, and capabilities.</p>
+      <div class="table-wrap" role="region" aria-label="LLM comparison table">
+        <table aria-describedby="a-heading">
+          <caption>Compare LLM specifications: parameters, context windows, and official sources</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Model</th>
+              <th scope="col" class="hide-sm">Provider</th>
+              <th scope="col">Params (B)</th>
+              <th scope="col">Context (K)</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody id="llm-tbody"></tbody>
+        </table>
+      </div>
     </section>
 
-    
-    <!-- PAPERS -->
-    <section id="papers" class="section">
-      <h2>Papers & References</h2>
+    <!-- B. BOTS (FREE) -->
+    <section id="b-bots" class="section" aria-labelledby="b-heading">
+      <h2 id="b-heading">B. Bots — Free Tools</h2>
+      <p class="muted">Handy, zero-cost utilities. No sign-in required.</p>
 
-      <div class="collapse" data-open="false" style="margin-bottom:var(--s)">
+      <div class="grid grid--cards" aria-live="polite">
+        <article class="card">
+          <h3>📄 Text Summarizer</h3>
+          <p>Drop in long text and get crisp, structured summaries with key bullets.</p>
+          <div><a class="btn btn--brand" href="#b-bots" data-track="bot-summarizer">Launch</a></div>
+        </article>
+        <article class="card">
+          <h3>🧪 Prompt Tuner</h3>
+          <p>Iterate prompts and compare responses side-by-side to find what works.</p>
+          <div><a class="btn btn--brand" href="#b-bots" data-track="bot-prompt-tuner">Launch</a></div>
+        </article>
+        <article class="card">
+          <h3>🔎 Regex Helper</h3>
+          <p>Craft and test regular expressions with instant feedback.</p>
+          <div><a class="btn btn--brand" href="#b-bots" data-track="bot-regex-helper">Launch</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- C. CRYPTO — CRYPTORKA -->
+    <section id="c-crypto" class="section" aria-labelledby="c-heading">
+      <h2 id="c-heading">C. Crypto — Cryptorka Whale Tracker</h2>
+      <p>Live whale-watching for on-chain flows. <strong>Status:</strong> <span class="badge">Under Construction</span></p>
+
+      <!-- CRYPTORKA TABS -->
+      <div class="card" aria-labelledby="crypto-heading">
+        <h3 id="crypto-heading">Top “Stable” Cryptos & Wallets (NFA)</h3>
+        <p class="muted">Toggle between established stablecoins/blue-chips and a curated set of labeled wallets to watch. <strong>NFA</strong>.</p>
+
+        <!-- Tabs -->
+        <div class="tabs" role="tablist" aria-label="Cryptorka views">
+          <button id="tab-stables" class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-stables" tabindex="0" data-tab="stables">
+            Stablecoins
+          </button>
+          <button id="tab-wallets" class="tab" role="tab" aria-selected="false" aria-controls="panel-wallets" tabindex="-1" data-tab="wallets">
+            Wallets <span class="muted" aria-hidden="true">(NFA)</span>
+          </button>
+        </div>
+
+        <!-- Shared search -->
+        <div class="searchbar" role="search">
+          <input id="cryptoSearch" type="search" placeholder="Search…" aria-label="Filter current view" autocomplete="off" inputmode="search">
+          <span class="kb" id="cryptoSearchHint">Sorted by type (Stablecoin → Layer 1), then name</span>
+        </div>
+
+        <!-- Panel: STABLES -->
+        <div id="panel-stables" role="tabpanel" aria-labelledby="tab-stables">
+          <div class="table-wrap" role="region" aria-label="Stablecoins & blue-chips table">
+            <table aria-describedby="crypto-heading">
+              <caption>Compare assets: type, primary network, paper/docs and Dexscreener pairs</caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Asset</th>
+                  <th scope="col" class="hide-sm">Type</th>
+                  <th scope="col">Network</th>
+                  <th scope="col">Paper/Docs</th>
+                  <th scope="col">Dexscreener</th>
+                </tr>
+              </thead>
+              <tbody id="crypto-tbody">
+                <!-- Initial rows render server-side for no-FOUC; JS will replace/augment -->
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">1</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">💵</span>
+                      <div>
+                        <strong>Tether USD₮ <span class="meta-pill">USDT</span></strong>
+                        <div class="cell-note">Largest USD-pegged stablecoin; deep liquidity.</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Stablecoin</td>
+                  <td>Multi (ETH/SOL/TRON)</td>
+                  <td><a href="https://tether.to/en/whitepaper/" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="USDT">Paper</a></td>
+                  <td><a href="https://dexscreener.com/search?q=USDT" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="USDT">Pairs</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">2</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">💸</span>
+                      <div>
+                        <strong>USD Coin <span class="meta-pill">USDC</span></strong>
+                        <div class="cell-note">USD-pegged; issued by Circle; widely integrated.</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Stablecoin</td>
+                  <td>Multi (ETH/SOL)</td>
+                  <td><a href="https://www.circle.com/blog/introducing-usdc" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="USDC">Docs</a></td>
+                  <td><a href="https://dexscreener.com/search?q=USDC" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="USDC">Pairs</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">3</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🅿️</span>
+                      <div>
+                        <strong>PayPal USD <span class="meta-pill">PYUSD</span></strong>
+                        <div class="cell-note">PayPal-branded USD stablecoin (Paxos).</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Stablecoin</td>
+                  <td>Ethereum</td>
+                  <td><a href="https://www.paxos.com/pyusd/" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="PYUSD">Docs</a></td>
+                  <td><a href="https://dexscreener.com/search?q=PYUSD" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="PYUSD">Pairs</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">4</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">₿</span>
+                      <div>
+                        <strong>Bitcoin <span class="meta-pill">BTC</span></strong>
+                        <div class="cell-note">Original cryptocurrency; most secure PoW network.</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Layer 1</td>
+                  <td>Bitcoin</td>
+                  <td><a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="BTC">Paper</a></td>
+                  <td><a href="https://dexscreener.com/search?q=BTC" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="BTC">Pairs</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">5</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">✨</span>
+                      <div>
+                        <strong>Ethereum <span class="meta-pill">ETH</span></strong>
+                        <div class="cell-note">Smart contracts; transitioned to PoS.</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Layer 1</td>
+                  <td>Ethereum</td>
+                  <td><a href="https://ethereum.org/en/whitepaper/" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="ETH">Paper</a></td>
+                  <td><a href="https://dexscreener.com/ethereum" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="ETH">Pairs</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank" aria-label="Rank">6</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🌞</span>
+                      <div>
+                        <strong>Solana <span class="meta-pill">SOL</span></strong>
+                        <div class="cell-note">High-performance monolithic chain.</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Layer 1</td>
+                  <td>Solana</td>
+                  <td><a href="https://solana.com/solana-whitepaper.pdf" target="_blank" rel="noopener" class="crypto-whitepaper-link" data-asset="SOL">Paper</a></td>
+                  <td><a href="https://dexscreener.com/solana" target="_blank" rel="noopener" class="crypto-dexscreener-link" data-asset="SOL">Pairs</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Panel: WALLETS -->
+        <div id="panel-wallets" role="tabpanel" aria-labelledby="tab-wallets" hidden>
+          <div class="table-wrap" role="region" aria-label="Wallets to follow table">
+            <table aria-describedby="crypto-heading">
+              <caption>Curated wallets to watch (labels only; NFA). Click explorer to inspect flows.</caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Label</th>
+                  <th scope="col" class="hide-sm">Network</th>
+                  <th scope="col">Explorer</th>
+                </tr>
+              </thead>
+              <tbody id="wallets-tbody">
+                <!-- Mythic Solana wallets (your addresses) -->
+                <tr tabindex="0">
+                  <td><span class="rank">1</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">⚡</span>
+                      <div><strong>Zeus</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/B46xaUeRM112q7EVbsBJPfWMLs2X64vtZpJVE1ofKZMY">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">2</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🦉</span>
+                      <div><strong>Athena</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/So11JSgBGXtPuLPjQiKy3u5CVuRXVMFnKuUELA2JRNu9x">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">3</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🌊</span>
+                      <div><strong>Poseidon</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/DpNXPNWvWoHaZ9P3WtfGCb2ZdLihW8VW1w1Ph4KDH9iG">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">4</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🗡️</span>
+                      <div><strong>Ares</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/7EcDhSYGxXyscszYEp35KHN8vvw3svAuLKTzXwCFLtV">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">5</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">👑</span>
+                      <div><strong>Hera</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/HsYrgw3fHBbRD3A9JCsxvkBwmBbwTkqMjrM2n7JfkaB4">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">6</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🎯</span>
+                      <div><strong>Artemis</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/DyT6CqGVNHHVm9WTkVZJg3Mw4YQ9C9jh3MAx5rKkPPM2">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">7</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">☀️</span>
+                      <div><strong>Apollo</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/14grJpemFaf88c8tiVb77W7TYg2W3ir6pfkKz3YjhhZ5">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">8</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🕳️</span>
+                      <div><strong>Hades</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/dDCQNnDmNbFVi8cQhKAgXhyhXeJ625tvwsunRyRc7c8">Solscan</a></td>
+                </tr>
+                <tr tabindex="0">
+                  <td><span class="rank">9</span></td>
+                  <td>
+                    <div class="model">
+                      <span class="emoji" aria-hidden="true">🪽</span>
+                      <div><strong>Hermes</strong><div class="cell-note">Mythic whale label</div></div>
+                    </div>
+                  </td>
+                  <td class="hide-sm">Solana</td>
+                  <td><a target="_blank" rel="noopener" class="wallet-explorer-link" href="https://solscan.io/account/benRLpbWCL8P8t51ufYt522419hGF5zif3CqgWGbEUm">Solscan</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>What is Cryptorka?</h3>
+          <p>Cryptorka is a focused crypto whale tracker that highlights unusually large wallet movements and labels notable entities to surface actionable context fast.</p>
+          <ul class="list">
+            <li>Smart alerts for outsized inflows/outflows</li>
+            <li>Entity labeling and heuristics</li>
+            <li>Lightweight dashboards for speed</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Get notified</h3>
+          <p class="muted">Be first to try Cryptorka when the alpha is ready.</p>
+          <button class="btn btn--brand" type="button" id="orka-notify-btn" aria-label="Notify me about Cryptorka">Notify me</button>
+          <p class="muted">Uses the same newsletter modal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional references -->
+    <section id="papers" class="section" aria-labelledby="papers-heading">
+      <h2 id="papers-heading">Papers & References</h2>
+      <div class="collapse" data-open="false">
         <button class="collapse__head" type="button" data-toggle="#papers-core" aria-expanded="false">
           <span><strong>Foundational Papers (Core List)</strong></span>
           <span class="muted">Show/Hide</span>
@@ -117,28 +428,26 @@
           <ul id="papers-core-list" class="list"></ul>
         </div>
       </div>
-
       <div id="paper-groups" class="grid grid--cards" aria-live="polite"></div>
     </section>
 
-    <!-- TIMELINE -->
-    <section id="timeline" class="section">
-      <h2>📜 Timeline of Knowledge</h2>
+    <section id="timeline" class="section" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading">📜 Timeline of Knowledge</h2>
       <ul id="timeline-list" class="list"></ul>
     </section>
 
     <div class="hr" role="separator" aria-hidden="true"></div>
 
     <!-- FOOTER -->
-    <section aria-label="Footer Navigation" class="section">
-      <nav class="footer">
-        <ul class="list--clean" style="display:flex; gap:12px; flex-wrap:wrap">
-          <li><a href="#llm-table" data-track="footer-llm-table">LLM Table</a></li>
-          <li><a href="#papers" data-track="footer-papers">Papers</a></li>
-          <li><a href="#timeline" data-track="footer-timeline">Timeline</a></li>
+    <section aria-label="Footer" class="section">
+      <nav class="footer" aria-label="Secondary">
+        <ul class="list--clean">
+          <li><a href="#a-models" data-track="footer-a-models">A. AI Models</a></li>
+          <li><a href="#b-bots" data-track="footer-b-bots">B. Bots</a></li>
+          <li><a href="#c-crypto" data-track="footer-c-crypto">C. Cryptorka</a></li>
         </ul>
       </nav>
-      <p class="foot-note">© 2024 LLM Comparison Platform. All model data sourced from official documentation.</p>
+      <p class="foot-note">© 2025 PABLOBOT. Model data sourced from official documentation.</p>
     </section>
   </main>
 
@@ -147,11 +456,11 @@
   <section id="newsletter-modal" class="modal" aria-hidden="true" aria-labelledby="nl-title" role="dialog">
     <div class="modal__panel" role="document">
       <div class="modal__head">
-        <h3 id="nl-title">📬 Subscribe for LLM Updates</h3>
+        <h3 id="nl-title">📬 Subscribe for Updates</h3>
         <button class="modal__close" id="nl-close" aria-label="Close" type="button">✕</button>
       </div>
       <div class="modal__body">
-        <p class="note">Get concise updates when model specs (context window, params, releases) change.</p>
+        <p class="note">Get concise updates: new LLM specs, new bots, and Cryptorka alpha access.</p>
         <form id="nl-form" class="modal__row" novalidate>
           <input id="nl-email" type="email" name="email" placeholder="you@company.com" required autocomplete="email" aria-label="Email address" />
           <button class="btn btn--brand" type="submit">Subscribe</button>
@@ -162,9 +471,9 @@
   </section>
 
   <button id="fab-newsletter" class="fab" aria-label="Subscribe to newsletter">📬</button>
-  <a class="top-link" href="#llm-table" aria-label="Back to top">↑</a>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <a class="top-link" href="#a-models" aria-label="Back to top">↑</a>
+
+  <!-- App JS -->
   <script src="app.js" defer></script>
 </body>
 </html>

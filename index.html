@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JC8GH7N249"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JC8GH7N249');
+  </script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare top LLMs: Grok, Llama 3, DeepSeek, Claude, Gemini, Mistral. Real-time specs, context windows, parameters. Fast, clean, professional.">
+  <meta name="keywords" content="LLM comparison, AI models, Grok, Llama 3, DeepSeek, Claude, Gemini, language models, AI comparison">
+  <title>LLM Comparison Platform | Compare Grok, Llama 3, DeepSeek & More</title>
+
+  <link rel="canonical" href="https://pablobot.com/">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pablobot.com/">
+  <meta property="og:title" content="LLM Comparison Platform | Compare Top AI Models">
+  <meta property="og:description" content="Professional comparison of Grok, Llama 3, DeepSeek, Claude, Gemini. Real-time specs and official links.">
+  <meta property="og:site_name" content="LLM Comparison Platform">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LLM Comparison Platform">
+  <meta name="twitter:description" content="Compare top LLMs with real-time specs and official links.">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"LLM Comparison Platform",
+    "url":"https://pablobot.com/",
+    "description":"Professional comparison platform for Large Language Models",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://pablobot.com/#llm-table?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <div class="brand__emoji" aria-hidden="true">🤖</div>
+      <div>
+        <h1>LLM Comparison Platform</h1>
+        <p class="muted" style="margin:0;font-size:.9rem">Enterprise-grade model intelligence</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <nav class="primary" aria-label="Primary">
+        <ul>
+          <li><a href="#llm-table" data-track="nav-llm-table">LLM Table</a></li>
+          <li><a href="#papers" data-track="nav-papers">Papers</a></li>
+          <li><a href="#timeline" data-track="nav-timeline">Timeline</a></li>
+          <li><button id="newsletter-btn" class="nav-btn" aria-label="Subscribe to newsletter">📬 Newsletter</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <!-- HERO + LLM TABLE (Main Offering) -->
+    <section id="llm-table" class="section" aria-labelledby="llm-heading">
+      <h2 id="llm-heading">Top LLMs — Ranked by Context Window & Parameters</h2>
+      <p>This live table is the heart of the site: scan specs, compare models, and jump to official sources.</p>
+
+      <div class="searchbar" role="search">
+        <input id="llmSearch" type="search" placeholder="Search models..." aria-label="Filter LLM models" autocomplete="off">
+        <span class="kb">Ranked by context window, then parameters</span>
+      </div>
+
+  <div class="table-wrap" role="region" aria-label="LLM comparison table">
+    <table aria-describedby="llm-heading">
+      <caption>Compare LLM specifications: parameters, context windows, and official sources</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Model</th>
+          <th scope="col" class="hide-sm">Provider</th>
+          <th scope="col">Params (B)</th>
+          <th scope="col">Context (K)</th>
+          <th scope="col">Link</th>
+        </tr>
+      </thead>
+      <tbody id="llm-tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+    <section id="intro" class="section">
+      <h2>Professional LLM Intelligence</h2>
+      <p>Compare the latest Large Language Models with verified specifications from official sources. Real-time data on context windows, parameters, and capabilities.</p>
+    </section>
+
+    
+    <!-- PAPERS -->
+    <section id="papers" class="section">
+      <h2>Papers & References</h2>
+
+      <div class="collapse" data-open="false" style="margin-bottom:var(--s)">
+        <button class="collapse__head" type="button" data-toggle="#papers-core" aria-expanded="false">
+          <span><strong>Foundational Papers (Core List)</strong></span>
+          <span class="muted">Show/Hide</span>
+        </button>
+        <div class="collapse__body" id="papers-core">
+          <ul id="papers-core-list" class="list"></ul>
+        </div>
+      </div>
+
+      <div id="paper-groups" class="grid grid--cards" aria-live="polite"></div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="section">
+      <h2>📜 Timeline of Knowledge</h2>
+      <ul id="timeline-list" class="list"></ul>
+    </section>
+
+    <div class="hr" role="separator" aria-hidden="true"></div>
+
+    <!-- FOOTER -->
+    <section aria-label="Footer Navigation" class="section">
+      <nav class="footer">
+        <ul class="list--clean" style="display:flex; gap:12px; flex-wrap:wrap">
+          <li><a href="#llm-table" data-track="footer-llm-table">LLM Table</a></li>
+          <li><a href="#papers" data-track="footer-papers">Papers</a></li>
+          <li><a href="#timeline" data-track="footer-timeline">Timeline</a></li>
+        </ul>
+      </nav>
+      <p class="foot-note">© 2024 LLM Comparison Platform. All model data sourced from official documentation.</p>
+    </section>
+  </main>
+
+  <!-- Newsletter Modal -->
+  <div id="modal-backdrop" class="modal-backdrop" data-open="false" aria-hidden="true"></div>
+  <section id="newsletter-modal" class="modal" aria-hidden="true" aria-labelledby="nl-title" role="dialog">
+    <div class="modal__panel" role="document">
+      <div class="modal__head">
+        <h3 id="nl-title">📬 Subscribe for LLM Updates</h3>
+        <button class="modal__close" id="nl-close" aria-label="Close" type="button">✕</button>
+      </div>
+      <div class="modal__body">
+        <p class="note">Get concise updates when model specs (context window, params, releases) change.</p>
+        <form id="nl-form" class="modal__row" novalidate>
+          <input id="nl-email" type="email" name="email" placeholder="you@company.com" required autocomplete="email" aria-label="Email address" />
+          <button class="btn btn--brand" type="submit">Subscribe</button>
+        </form>
+        <p id="nl-feedback" class="note" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <button id="fab-newsletter" class="fab" aria-label="Subscribe to newsletter">📬</button>
+  <a class="top-link" href="#llm-table" aria-label="Back to top">↑</a>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
